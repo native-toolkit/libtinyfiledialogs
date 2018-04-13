@@ -101,10 +101,10 @@ misrepresented as being the original software.
   #define _WIN32_WINNT 0x0500
  #endif
  #ifndef TINYFD_NOLIB
-  #include <Windows.h>
+  #include <windows.h>
   /*#define TINYFD_NOSELECTFOLDERWIN*/
   #ifndef TINYFD_NOSELECTFOLDERWIN
-	#include <Shlobj.h>
+	#include <shlobj.h>
   #endif /*TINYFD_NOSELECTFOLDERWIN*/
  #endif
  #include <conio.h>
